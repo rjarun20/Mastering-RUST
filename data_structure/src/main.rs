@@ -230,33 +230,33 @@ fn main() {
 
 
     
-    struct Point<T,V>{
-        x:T,
-        y:V
-    }
+    // struct Point<T,V>{
+    //     x:T,
+    //     y:V
+    // }
 
-    let a:Point<i32,f32> = Point{x:0, y:0.0};
-    let b:Point<f32,i32> = Point{x:0.0, y:0};
+    // let a:Point<i32,f32> = Point{x:0, y:0.0};
+    // let b:Point<f32,i32> = Point{x:0.0, y:0};
 
     
 
 
     //structs
-    struct Point{
-        x:f64,
-        y:f64
-    }
+    // struct Point{
+    //     x:f64,
+    //     y:f64
+    // }
 
-    struct Line{
-        start: Point,
-        end: Point
-    }
+    // struct Line{
+    //     start: Point,
+    //     end: Point
+    // }
 
-    let p1 = Point{x:3.0, y:4.0};
-    let p2 = Point{x:5.0, y:10.0};
-    let line = Line{start:p1, end:p2};
+    // let p1 = Point{x:3.0, y:4.0};
+    // let p2 = Point{x:5.0, y:10.0};
+    // let line = Line{start:p1, end:p2};
 
-    println!("Start: ({}, {}), End: ({}, {})", line.start.x, line.start.y, line.end.x, line.end.y);
+    // println!("Start: ({}, {}), End: ({}, {})", line.start.x, line.start.y, line.end.x, line.end.y);
 
     
 
